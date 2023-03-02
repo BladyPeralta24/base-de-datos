@@ -2,27 +2,29 @@
 
 --1
 
-select concat('DEPARTAMENTO DE ' , nomde) as 'NOMBRE' 
+select concat('DEPARTAMENTO DE ' , nomde) as NOMBRE 
 from Departamentos 
 where presu < 30 
 order by nomde asc;
 
 --2
-select concat(numde, '-' ,nomde) as 'Numero_nombre', tidir as 'T'
+select concat(numde, '-' ,nomde) as Numero_nombre, tidir as T
 from Departamentos 
 where presu < 30;
 
 --3
-select nomem as 'Nombre', salar * 12 as 'Salario_2014', 
-salar * 1.02 * 12 as 'Salario_2015', 
+select nomem as Nombre, salar * 12 as Salario_2014, 
+salar * 1.02 * 12 as Salario_2015, 
 salar * 1.02 * 12 * 1.02 as 'Salario_2016' 
 from Empleados 
-where numhi > 4;
+where numhi > 4 
+order by nomem asc;
 
 --4
 select nomem 
 from Empleados 
-where  numhi * 120 > salar * 0.2 and numhi != 0;
+where  numhi * 120 > salar * 0.2
+order by nomem asc;
 
 --5
 select nomem, salar + comis as Salario_total 
