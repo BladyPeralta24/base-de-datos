@@ -45,3 +45,11 @@ create table recibe(
     constraint FK_NumMatricula FOREIGN KEY (NumMatricula) REFERENCES alumno(NumMatricula) on delete cascade,
     constraint FK_CodAsignatura FOREIGN KEY (CodAsignatura) REFERENCES asignatura(CodAsignatura) on delete cascade
 );
+
+create table nota(
+    Ident INT,
+    nombre VARCHAR(30) not null,
+    nota float not null,
+
+    constraint ident_pk PRIMARY KEY (Ident)
+);
