@@ -1,0 +1,11 @@
+insert into personas (cod_hospital, dni, apellidos, funcion, salario, localidad) values (1, 12345678, 'Garcia Hernandez, Eladio', 'CONSERJE', 1200, 'LORCA');
+insert into personas (cod_hospital, dni, apellidos, funcion, salario, localidad) values (1, 87654321, 'Fuentes Bermejo, Carlos', 'DIRECTOR', 2000, 'MURCIA');
+insert into personas (cod_hospital, dni, apellidos, funcion, salario, localidad) values (2, 55544433, 'Gonzalez Marin, Alicia', 'CONSERJE', 1200, 'MURCIA');
+insert into personas (cod_hospital, dni, apellidos, funcion, salario, localidad) values (1, 66655544, 'Castillo Montes, Pedro', 'MEDICO', 1700, 'MURCIA');
+insert into personas (cod_hospital, dni, apellidos, funcion, salario, localidad) values (2, 22233322,'Tristan Garcia, Ana', 'MEDICO', 1900, 'MURCIA');
+insert into personas (cod_hospital, dni, apellidos, funcion, salario, localidad) values (3, 55544411,'Ruiz Hernandez, Caridad', 'MEDICO', 1900, 'LORCA');
+insert into personas (cod_hospital, dni, apellidos, funcion, salario, localidad) values (3, 99988333,'Serrano Diaz, Alejandro', 'DIRECTOR', 2400, 'CARTAGENA');
+insert into personas (cod_hospital, dni, apellidos, funcion, salario, localidad) values (4, 33322211,'Mesa del Castillo, Juan', 'MEDICO', 2200, 'LORCA');
+insert into personas (cod_hospital, dni, apellidos, funcion, salario, localidad) values (2, 22233333,'Martinez Molina, Andres', 'MEDICO', 1600, 'CARTAGENA');
+insert into personas (cod_hospital, dni, apellidos, funcion, salario, localidad) values (4, 55544412,'Jimenez, Jimenez, Dolores', 'CONSERJE', 1200, 'MURCIA');
+insert into personas (cod_hospital, dni, apellidos, funcion, salario, localidad) values (4, 22233311,'Martinez Molina, Gloria', 'MEDICO', 1600, 'MURCIA');
